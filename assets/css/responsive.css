@@ -1,0 +1,102 @@
+
+/* Responsive :tương ứng kích thước */
+/* PC */
+@media screen and (min-width :64em) {
+    
+}
+/* Tablet  and mobile*/
+@media (max-width: 63.975em) {
+    .bnt {
+        padding: 15px 16px ;
+    }
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    /* #contact form{
+        margin-top: 16px;
+    }
+    */
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+/* Tablet */
+@media screen and (min-width : 46.25em) and (max-width: 63.975em) {
+    
+}
+
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+   .s-btn-full, .s-col-full,.place-buy {
+       width: 100%;
+   }
+    #header{
+        /* vượt qua kích thước --> ẩn con */
+        overflow: hidden;       
+    }
+    #nav{
+        display: block;
+    }
+    #nav .subnav{
+        position: inherit;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+   
+    #nav li a{
+        display: block;
+        padding: 1px 24px;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav > li {
+        display: block;
+
+        }
+
+    #header .search-icon{
+        display: none;
+    }
+    #header #menu-btn{
+        float: left;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #header #menu-btn :hover{
+        background-color:  #cccc;
+    }
+    #header .menu-icon{
+        color: #fff;
+        font-size: 12px;
+        line-height: 46px;
+        padding: 17px 23px ;
+    }  
+    #content .member-item{
+        width: 100%;
+    }
+    #content .avatar{
+        width: 60%;
+        margin-bottom: 32px;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
+    .btn {
+        /* áp dụng trình duyệt bt */
+        appearance: none;
+        -webkit-appearance: none ;
+    }
+
+    
+}
